@@ -7,7 +7,10 @@ export default function Header() {
       <nav className='container flex items-center justify-between'>
         <ul className='flex gap-6'>
           <li>
-            <Link href='/'>Home</Link>
+            <Link href='/'>home</Link>
+          </li>
+          <li>
+            <Link href='/about'>about</Link>
           </li>
         </ul>
 
