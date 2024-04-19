@@ -1,3 +1,5 @@
+"use client";
+
 import Link from 'next/link'
 import { ThemeToggle } from '@/components/theme-toggle'
 
@@ -13,7 +15,6 @@ export default function Header() {
             <Link href='/about'>about</Link>
           </li>
         </ul>
-
         <ThemeToggle />
       </nav>
     </header>
